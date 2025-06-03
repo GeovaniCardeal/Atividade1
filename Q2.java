@@ -7,12 +7,12 @@ public class Q2 {
         Scanner teclado = new Scanner(System.in);
         
         System.out.println("Informe a distancia que será percorrida em Km: ");
-        float distancia = teclado.nextInt();
+        float distancia = teclado.nextFlaot();
         
         System.out.println("Informe o preço da gasolina: ");
-        float valor = teclado.nextInt();
+        float valor = teclado.nextFloat();
         
-        float  gasolina = distancia / 12;
+        float  gasolina = distancia / 12.0f;
         
         float gastoTotal = gasolina * valor;
         
